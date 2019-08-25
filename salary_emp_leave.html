@@ -14,29 +14,14 @@
   <link href="css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
   <link href="css/style.css" rel="stylesheet">
+  
 </head>
 <body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--Start of the header-->
- <!--Navbar-->
- <nav class="navbar navbar-expand-lg navbar-dark primary-color">
+  <!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark primary-color">
 
     <!-- Navbar brand -->
-    <a class="navbar-brand" href="index.html">Admin Panel</a>
+    <a class="navbar-brand" href="salary_emp.html">NimedcoPharmacy - Salary Managment</a>
   
     <!-- Collapse button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
@@ -50,56 +35,80 @@
       <!-- Links -->
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home
+          <a class="nav-link" href="salary_emp.html">Time Tracker
             <span class="sr-only">(current)</span>
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-  
-        <!-- Dropdown -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">Reports</a>
-          <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Summary</a>
-            <a class="dropdown-item" href="#">Reports Store</a>
-            
-          </div>
-        </li>
-  
-      </ul>
-      <!-- Links -->
-  
-      <form class="form-inline my-2 my-lg-0 align-self-stretch">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-    </div>
+
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="salary_leave.html">Request Leave
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+       
+        
+       
+
     <!-- Collapsible content -->
   
   </nav>
   <!--/.Navbar-->
-  
-  <!--End of the header-->
+  <br><br>
+ <!--TIME TRACKER-->
 
 
+<div class="row" style="padding-left: 450px">
+    <div class="col-md-5"><h2>Request for a leave</h2>  
+      <br>    
+      <!-- Extended default form grid -->
+      <form>
+        <!-- Grid row -->
+        <div class="md-form" style="max-width: 400px">
+            <input type="date" id="inputMDEx" class="form-control">
+            <label for="inputMDEx">Choose your date</label>
+           
+        </div>
+        <div class="form-row">
+          <!-- Default input -->
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Employee ID</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="EMPID">
+          </div>
+         
+        <!-- Grid row -->
+      
+        <!-- Default input -->
+        <div class="form-group">
+          <label for="inputAddress">Leave Type</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Full Day/HalfDay">
+        </div>
+        <!-- Default input -->
+        <div class="form-group">
+          <label for="inputAddress2">Reason</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="why?">
+        </div>
+        <!-- Grid row -->
+        <div class="form-row">
+          <!-- Default input -->
+          <div class="form-group col-md-6">
+            <label for="inputCity">Email</label>
+            <input type="text" class="form-control" id="inputCity" placeholder="Email">
+          </div>
+          <!-- Default input -->
+          <div class="form-group col-md-6">
+            <label for="inputZip">Contact Number</label>
+            <input type="text" class="form-control" id="inputZip" placeholder="xxxxxxxxxx">
+          </div>
+        </div>
+        <!-- Grid row -->
+        <button type="submit" class="btn btn-primary btn-md">REGISTER</button>
+      </form>
+      <!-- Extended default form grid --></div> 
+    </div>
+          
+    <!--Footer start-->
 
-
-
-
-
-
-
-
-
-
-
-<!--Footer start-->
 <!-- Footer -->
 <footer class="page-footer font-small mdb-color pt-4">
 
@@ -236,21 +245,7 @@
 </footer>
 <!-- Footer -->
 
-<!--End of the footer-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!--Ens of the footer-->        
 
 
 
@@ -264,6 +259,7 @@
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script type="text/javascript" src="js/mdb.js"></script>
 
 </body>
 
